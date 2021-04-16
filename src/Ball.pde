@@ -23,6 +23,9 @@ class Ball {
       this.vel.y*=-1;
     }
   }
+  Ball clone(){
+    return null;
+  }
   void draw() {
     ellipseMode(CENTER);
     fill(230, 40, 60);

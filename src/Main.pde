@@ -5,6 +5,7 @@ void setup() {
   ball=new Ball();
   paddleA=new Paddle(#30c44a, 50);
   paddleB=new Paddle(#304ac4, height-50);
+  println(int("10"),float("10.001f"));
 }
 void keyPressed() {
   switch (keyCode) {

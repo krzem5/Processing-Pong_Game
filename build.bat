@@ -1,1 +1,3 @@
-start "" "projects/Processing-Pong_Game/index/index.pde"
+@echo off
+cls
+python build.py %*
